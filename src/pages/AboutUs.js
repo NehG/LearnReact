@@ -1,8 +1,9 @@
 import React from 'react';
+import Layout from '../components/shared/Layout';
 
 class AboutUs extends React.Component {
     render() {
-        return <div>About Us</div>;
+        return <Layout>About Us</Layout>;
     }
 }
 
